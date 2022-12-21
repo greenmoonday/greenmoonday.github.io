@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>antena-kipas</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../aset/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class="logo" src="../aset/logo_antena_kipas.png">
+            </div>
+
+            <ul class="">
+                <li><a href="">Home</a></li>
+                <li><a href="">Halaman</a></li>
+                <li><a href="">Tools</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('.container ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('slide');
+            });
+        </script>
+    </header>
+
+    <div class="box-untukisiblog">
+
+        <h1>About</h1>
+        <div class="boxisi">
+            <div class="isi">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
