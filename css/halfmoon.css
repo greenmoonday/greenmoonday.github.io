@@ -843,6 +843,9 @@ body {
 
 .content-wrapper {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     bottom: 0;
     left: 0;
@@ -14405,4 +14408,14 @@ body:not(.dark-mode) .invisible-lm {
 }
 .pointer-events-none {
     pointer-events: none !important;
+}
+
+.background-gambar {
+    background-image: url(/aset/background_2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+
 }
