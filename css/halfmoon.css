@@ -296,13 +296,15 @@ body {
 /* Horizontal rule */
 
 hr {
-    height: 1px;
-    color: rgba(0, 0, 0, 0.05);
+    size: 3;
+    width: 500;
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.05);
-    border: none;
 }
 .dark-mode hr {
-    color: rgba(255, 255, 255, 0.05);
+    size: 3;
+    color: rgb(255, 255, 255);
+    width: 500;
     background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -741,7 +743,7 @@ body {
     height: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: rgba(152, 166, 168, 0.9);
+    background-color: rgb(80, 81, 81);
     background-image: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
@@ -749,7 +751,7 @@ body {
     box-shadow: none;
 }
 .dark-mode .navbar {
-    background-color: rgba(152, 166, 168, 0.9);
+    background-color: rgb(122, 122, 122);
     background-image: none;
     border-color: rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
@@ -13608,6 +13610,8 @@ body:not(.dark-mode) .hidden-lm {
 }
 .text-center {
     text-align: center !important;
+    background: rgba(0, 0, 0, 0.4);
+
 }
 @media (min-width: 577px) {
     .text-sm-left {
@@ -14419,3 +14423,4 @@ body:not(.dark-mode) .invisible-lm {
     background-repeat: no-repeat;
 
 }
+
