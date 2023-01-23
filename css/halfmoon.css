@@ -275,7 +275,7 @@ html {
 body {
     background-color: #ffffff;
     background-image: none;
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1.4rem;
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13611,6 +13611,7 @@ body:not(.dark-mode) .hidden-lm {
 .text-center {
     text-align: center !important;
     background: rgba(0, 0, 0, 0.4);
+    color: white;
 
 }
 @media (min-width: 577px) {
