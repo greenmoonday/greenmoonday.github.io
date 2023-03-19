@@ -854,6 +854,7 @@ body {
     right: 0;
     width: 100%;
     overflow: auto;
+    color: white;
 }
 
 /* Page wrapper helper classes */
